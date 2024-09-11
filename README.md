@@ -8,10 +8,9 @@ Goal
 
 ## Topics Covered
 
-Section 1 – Data Ingestion
-- Section 1.1 – Setup Development Environment
-- Section 1.2 – Create New Project (Source Control, Python environment)
-- Section 1.3 – Run Dev Tools (flake8, black)
+Section 1 – Project Setup
+- Section 1.1 – Create New Project (Folder, Python environment)
+- Section 1.2 – Run Dev Tools (flake8, black)
 
 # Development Setup
 

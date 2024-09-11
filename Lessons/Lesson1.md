@@ -1,8 +1,14 @@
 # Lesson 1
 
-This lesson guides you through setting up your environment and creating your first hello world project in python. 
+This lesson covers the following topics:
 
-## Install Tools 
+- Discuss required tools
+- Section 1.1 – Create New Project
+    - Create a new project
+    - Create a python environment
+    - Create and run your first hello world project in python. 
+
+## Required Tools 
 
 - Install Python – Download python 3.11 from https://www.python.org/downloads/release/python-31110/
 - Install VSCode (optional) – Download from https://code.visualstudio.com/ 
@@ -10,7 +16,7 @@ This lesson guides you through setting up your environment and creating your fir
 - Install Docker (optional) – Download Docker Desktop from https://www.docker.com/products/docker-desktop 
 - Create Account on Github (optional) – Useful for shared projects through this training 
 
-## Create Your Project
+## Training – Section 1.1 – Create New Project
 
 Open your command prompt or terminal to create a new folder for your project. 
 ```bash
@@ -47,4 +53,18 @@ Run your file from the command line
 
 ```bash
 $(.venv)path/to/src/training>python main.py 
+```
+
+## Training – Section 1.2 – Run Dev Project
+
+```bash
+# Install flake8 and black 
+python -m pip install flake8
+python -m pip install black
+
+# Run flake8
+flake8 main.py
+
+# Run black
+black main.py
 ```
